@@ -1,0 +1,15 @@
+{
+    "name": "teyka/battleships",
+    "description": "Battle ships game",
+    "type": "project",
+    "authors": [
+        {
+            "name": "T.",
+            "email": "tgatev@emis.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "BattleShips\\": [ "lib/BattleShips/"] }
+    }
+
+}
