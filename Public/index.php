@@ -10,9 +10,6 @@ use BattleShips\Battlefield;
 if (php_sapi_name() == "cli") {
     // In cli-mode
     cliUI();
-} else {
-    // Not in cli-mode
-    GUI();
 }
 
 function cliUI(){
